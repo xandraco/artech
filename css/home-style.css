@@ -28,5 +28,14 @@ footer {
 .main-banner-title {
   color: white;
   text-align: center;
-  /*font-weight: 900;*/
+  font-size: 5em;
+}
+
+.main-banner-background {
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
