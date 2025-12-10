@@ -28,7 +28,7 @@ footer {
 .main-banner-title {
   color: white;
   text-align: center;
-  font-size: 5em;
+  font-size: 3rem;
 }
 
 .main-banner-background {
@@ -38,4 +38,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 768.1px) {
+  .main-banner-title {
+    font-size: 5rem;
+  }
 }
